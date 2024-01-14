@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "arrayio"
+version = "0.1.0"
+description = ""
+authors = ["Kota Aono <kota-aono@iac.ihi.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "^4.0.0"
+openpyxl = "^3.0.0"
+lxml = "^5.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+memory-profiler = "^0.61.0"
+line-profiler = "^4.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
